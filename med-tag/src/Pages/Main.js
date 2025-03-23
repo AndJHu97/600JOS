@@ -6,7 +6,7 @@ const Main = () => {
 
 
     const extractTags = () => {
-       
+       console.log("tag extracted");
     };
 
     return (
