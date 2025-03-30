@@ -40,7 +40,7 @@ const Main = () => {
 
     // Function to get chat gpt response
     const getChatGptResponse = async () => {
-        const apiKey = "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"; 
+        const apiKey = "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"; 
         const endpoint = "https://api.openai.com/v1/chat/completions";
         const headers = {
           "Content-Type": "application/json",
