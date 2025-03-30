@@ -40,7 +40,7 @@ const Main = () => {
 
     // Function to get chat gpt response
     const getChatGptResponse = async () => {
-        const apiKey = process.env.REACT_APP_GPT_KEY;
+        const apiKey = "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"; 
         const endpoint = "https://api.openai.com/v1/chat/completions";
         const headers = {
           "Content-Type": "application/json",
